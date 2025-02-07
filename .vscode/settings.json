@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "locale.h": "c",
+        "ex1.C": "cpp",
+        "stdio.h": "c",
+        "math.h": "c",
+        "random": "c",
+        "ex17RepIgor.C": "cpp"
+    }
+}
