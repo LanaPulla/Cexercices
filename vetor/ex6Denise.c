@@ -25,6 +25,7 @@ int main(){
         if (vet[x] > maior) {
             maior = vet[x];
         }
+        
         if (vet[x] < menor) {
             menor = vet[x];
         }
