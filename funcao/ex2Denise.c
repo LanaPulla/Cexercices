@@ -4,6 +4,19 @@ Suponha que o expoente seja um inteiro positivo,
 diferente de zero, e a base seja um inteiro. */
 
 #include <stdio.h>
+
+void potencia(double a, double b);
+
+int main(){
+    double a;
+}
+
+
+
+
+
+
+/*#include <stdio.h>
 #include <math.h>
 #include <string.h>
 
@@ -28,5 +41,5 @@ void pot(double a, double b){
     } 
     
 
-}
+}*/
 

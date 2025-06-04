@@ -4,6 +4,57 @@ Construa duas funções, uma para determinar o maior
 número e outra para determinar o menor número. */
 
 #include <stdio.h>
+
+int maior(int x, int y, int z);
+int menor(int x, int y, int z);
+
+int main(){
+    int x,y,z;
+
+    printf("digite um valor para x:");
+    scanf("%d", &x);
+
+    printf("digite um valor para y:");
+    scanf("%d", &y);
+    
+    printf("digite um valor para z:");
+    scanf("%d", &z);
+
+    int ma = maior(x,y,z);
+    int me = menor(x,y,z);
+
+    printf("o maior e: %d\n", ma);
+    printf("o menor e: %d\n", me);
+
+
+}
+
+int maior(int x, int y, int z){
+    int ma = 0;
+    if(ma>x){
+        ma = x;
+    } else if(ma>y){
+        ma = y;
+    } else {
+        ma = z;
+    }
+
+    return ma; 
+}
+
+int menor(int x, int y, int z){
+    int me = x;
+   if(y<me){
+        me = y;
+    } else if(z<me){
+        me = z;
+    }
+    
+    return me; 
+}
+
+/*
+#include <stdio.h>
 #define L 3
 
 void numeros(int valores[]);
@@ -57,7 +108,7 @@ void menor(int valores[]){
     printf("%d", menor);
 }
 
-
+*/
 
 
 
