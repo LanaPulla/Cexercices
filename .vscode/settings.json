@@ -6,6 +6,7 @@
         "math.h": "c",
         "random": "c",
         "ex17RepIgor.C": "cpp",
-        "limits": "c"
+        "limits": "c",
+        "stdlib.h": "c"
     }
 }
